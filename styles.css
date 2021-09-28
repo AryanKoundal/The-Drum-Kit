@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  background-color: #393E46;
+  margin: 0;
+}
+
+h1 {
+  font-size: 7.5rem;
+  color: #DBEDF3;
+  text-shadow: 5px 0 #00FFF5;
+  /* font-family: 'Monoton', cursive; */
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  font-weight: lighter;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+/* heading */
+#title{
+  margin-top: 115px;
+}
+
+.titleclicked{
+  /* font-size: 7.5rem; */
+  color: #00FFF5;
+  text-shadow: 5px 0 #DBEDF3;
+  /* font-family: 'Luckiest Guy', cursive; */
+  /* font-weight: lighter; */
+}
+
+
+/* media query */
+@media (min-width: 955px) {
+  h1#title {
+    font-size: 900%;
+  }
+}
+
+@media (max-width: 955px) {
+  h1#title {
+    font-size: 600%;
+  }
+}
+.set {
+  margin: 7% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0px 20px 10px white;
+  /* opacity: 0.5; */
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #00FFF5;
+  font-size: 2.5rem;
+  font-family: 'Monoton', cursive;
+  /* line-height: 2; */
+  /* font-weight: 900; */
+  color: white;
+  /* text-shadow: 3px 0 #00ADB5; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 15px;
+  background-color: #222831;
+  border-radius: 30% 30% 70% 70%;
+}
+.footer{
+  font-size: 2rem;
+  font-family: 'Lobster Two', cursive;
+  color: black;
+  background-color: white;
+  height: 70px;
+  /* text-shadow: 2px 2px #00FFF5; */
+}
+/* ///////////// */
+.custom-shape-divider-top-1632757405 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632757405 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 126px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1632757405 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* //////////////// */
+
+.custom-shape-divider-bottom-1632759974 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632759974 svg {
+    position: relative;
+    bottom: 0;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-bottom-1632759974 .shape-fill {
+    fill: #FFFFFF;
+}
