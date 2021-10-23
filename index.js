@@ -72,8 +72,8 @@ heading.addEventListener("click",titleIsClicked);
 
 function titleIsClicked(){
 
-  var sound8 = new Audio("sounds/phIntro.mp3");
-  // var sound8 = new Audio("sounds/Joke.mp3");
+  // var sound8 = new Audio("sounds/phIntro.mp3");
+  var sound8 = new Audio("sounds/Joke.mp3");
   sound8.play();
 
 
